@@ -2,5 +2,5 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
     hooks:
-      - id: detect-aws-credentials #--credentials-file
+      - id: detect-aws-credentials #--credentials-file 
         args: [--allow-missing-credentials]
