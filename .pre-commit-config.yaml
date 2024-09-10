@@ -1,6 +1,5 @@
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.4.0  # Check for the latest release
     hooks:
-      - id: detect-aws-credentials #--credentials-file 
-        args: [--allow-missing-credentials]
+      - id: detect-secrets
